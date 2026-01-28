@@ -20,7 +20,7 @@ const templates = {
   '.env': `# Database Configuration
 # Add your MongoDB connection string here
 # Example: mongodb://localhost:27017/your-database-name
-# Or use MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/database-name
+# Or use MongoDB Atlas: mongodb+srv://<username>:<password>@<cluster-url>/<database-name>?retryWrites=true&w=majority&appName=<app-name>
 DB_URL=
 
 # Access Token Secret
